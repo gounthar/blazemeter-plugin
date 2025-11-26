@@ -143,7 +143,7 @@ public class BlazeMeterPerformanceBuilderDescriptor extends BuildStepDescriptor<
         } else {
             Jenkins.get().checkPermission(Jenkins.READ);
         }
-            ListBoxModel items = new ListBoxModel();
+        ListBoxModel items = new ListBoxModel();
 
         try {
             List<BlazemeterCredentialsBAImpl> creds = getCredentials();
